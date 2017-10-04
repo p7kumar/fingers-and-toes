@@ -33,7 +33,7 @@ function initializeTimer(maxNumber){
     var startNumber = 1;
     var displayNumber = document.getElementById('display-number');
     var intervalId = setInterval(function(){
-        var newNumber = startNumber+;
+        var newNumber = startNumber++;
         if(newNumber < maxNumber){
             if(newNumber % 5 === 0 && newNumber % 3 === 0){
                 fingers.style.backgroundColor = 'red';
