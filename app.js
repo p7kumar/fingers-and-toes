@@ -95,5 +95,5 @@ function initializeTimer(maxNumber){
             }
             clearInterval(intervalId);
         }
-    }1000)
+    },1000)
 }
